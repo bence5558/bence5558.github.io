@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>molinaro-art.com</title>
+
+        <link rel="stylesheet" href="../Stylesheets/Gallery.css">
+        <link rel="stylesheet" href="../Stylesheets/Navbar.css">
+        <link rel="stylesheet" href="../Stylesheets/PictureMain.css">
+    </head>
+    <body>
+        <nav class="menu">
+            <ul>
+                <a href="../index.html" class="fejleca" class="fejleca"><img src="../navbar/fejlec.jpg" class="fejleckep"></a>
+                <li>
+                    <a>Portofolio</a>
+                    <ul>
+                        <li><a class="kek" href="../aloldalak/Paintings.html">Paintings</a></li>                        
+                        <li>
+                            <a class="kek kekmarad">Drawings</a>
+                            <ul>
+                                <li><a class="kek" href="../aloldalak/Budapest.html">Budapest</a></li>
+                                <li><a class="kek" href="../aloldalak/Hungary.html">Hungary</a></li>
+                                <li><a class="kek" href="../aloldalak/Cities.html">Cities</a></li>
+                                <li><a class="kek" href="../aloldalak/People.html">People</a></li>
+                                <li><a class="kek" href="../aloldalak/Creative.html">Creative</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="kek" href="../aloldalak/Paintings80.html">Paintings from the 80's</a></li>
+                    </ul>
+                </li>
+                <li><a href="../aloldalak/About.html">About</a></li>
+                <li><a href="../aloldalak/Contact.html">Contact</a></li>
+                <li><a href="../aloldalak/News.html">News</a></li>
+
+                <a href="https://www.instagram.com/" target="_blank"><img class="icon" src="../navbar/instagram.ico" class="fejleckep" width="24" height="24"></a>
+                <a href="https://www.facebook.com/" target="_blank"><img class="icon1" src="../navbar/facebook.ico" class="fejleckep" width="24" height="24"></a>
+                <a href="https://www.gmail.com/" target="_blank"><img class="icon1" src="../navbar/email.ico" class="fejleckep" width="24" height="24"></a>
+                <a href="https://www.linkedin.com/" target="_blank"><img class="icon1" src="../navbar/linkedin.ico" class="fejleckep" width="24" height="24"></a>
+                <a href="https://www.pinterest.com/" target="_blank"><img class="icon1" src="../navbar/pinterest.ico" class="fejleckep" width="24" height="24"></a>
+
+            </ul>
+        </nav>
+
+        <p style="font-size: 3.2vw; font-weight: 300; text-align: center; padding-top: 6vw; padding-bottom: 0.8vw; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Paintings</p>
+
+        <img src="../festmenyek/38x38 poppy meadow RGB.jpg"  class="leftimg hover-shadow cursor" onclick="openModal();currentSlide(1)">
+        <img src="../festmenyek/40x40 Autumn Trees series 1 RGB.jpg"  class="rightimg hover-shadow cursor" onclick="openModal();currentSlide(2)">
+
+        <img src="../festmenyek/50 x 70 koros RGB.jpg"  class="leftimg hover-shadow cursor" onclick="openModal();currentSlide(3)">
+        <img src="../festmenyek/40x40 Balaton series 2 RGB.jpg"  class="rightimg hover-shadow cursor" onclick="openModal();currentSlide(4)">
+
+        <img src="../festmenyek/40x40 Autumn Trees series 2 RGB.jpg"  class="leftimg hover-shadow cursor" onclick="openModal();currentSlide(5)">
+        <img src="../festmenyek/50 x 70 Széchenyi Lánchíd 2 RGB.jpg"  class="rightimg hover-shadow cursor" onclick="openModal();currentSlide(6)">
+
+        <img src="../festmenyek/50 x 70 Sailing at the Balaton RGB.jpg"  class="leftimg hover-shadow cursor" onclick="openModal();currentSlide(7)">
+        <img src="../festmenyek/50 x 70 Towards Tihany RGB.jpg"  class="rightimg hover-shadow cursor" onclick="openModal();currentSlide(8)">
+
+        <img src="../festmenyek/40x40 Balaton series 1 RGB.jpg"  class="leftimg hover-shadow cursor" onclick="openModal();currentSlide(9)">
+        <img src="../festmenyek/40x40 Balaton series 3 RGB.jpg"  class="rightimg hover-shadow cursor" onclick="openModal();currentSlide(10)">
+
+        <img src="../festmenyek/40x40 Fuji series 1 RGB.jpg"  class="leftimg hover-shadow cursor" onclick="openModal();currentSlide(11)">
+        <img src="../festmenyek/40x40 Fuji series 2RGB.jpg"  class="rightimg hover-shadow cursor" onclick="openModal();currentSlide(12)">
+
+        <img src="../festmenyek/40x40 Budapest skyline with the Danube RGB.jpg"  class="leftimg hover-shadow cursor" onclick="openModal();currentSlide(13)">
+        <img src="../festmenyek/40x40 Well crane at the Alföld RGB.jpg"  class="rightimg hover-shadow cursor" onclick="openModal();currentSlide(14)">
+
+        <img src="../festmenyek/50 x 70 Széchenyi Lánchíd 1 RGB.jpg"  class="leftimg hover-shadow cursor" onclick="openModal();currentSlide(15)">
+        <img src="../festmenyek/40x40 Lánchíd toward the Academy RGB.jpg"  class="rightimg hover-shadow cursor" onclick="openModal();currentSlide(16)">
+
+        <img src="../festmenyek/45x45 velence venice RGB.jpg"  class="leftimg hover-shadow cursor" onclick="openModal();currentSlide(17)">
+        <img src="../festmenyek/45x45 london-2023.jpg"  class="rightimg hover-shadow cursor" onclick="openModal();currentSlide(18)">
+
+        <hr style="margin-top: 1.5%; clear: both; border: 0px solid transparent; height: 0px;">
+
+        <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <img class="next" onclick="plusSlides(1)" src="../OtherImages/next.ico">
+        <img class="prev" onclick="plusSlides(-1)" src="../OtherImages/previous.ico">
+
+        <div class="modal-content">
+
+            <div class="mySlides">
+                <img src="../festmenyek/38x38 poppy meadow RGB.jpg" style="width:100%">
+                <p>P01</p>
+                <h1 class="galleryh1">Poppy meadow</h1>
+                <h3 class="galleryh3">38 x 38 cm / 15 x 15 inch <br>oil on panel - 2023<br> Giclée Fine Art print available from ＄210</h3>
+            </div>
+
+            <div class="mySlides">
+                <img src="../festmenyek/40x40 Autumn Trees series 1 RGB.jpg" style="width:100%">
+                <p>P02</p>
+                <h1 class="galleryh1">Autumn Trees 1</h1>
+                <h3 class="galleryh3">40 x 40 cm / 15.74 x 15.74 inch<br>oil on panel 2023<br> Giclée Fine Art print available from ＄210</h3>
+            </div>
+            
+
+            <div class="mySlides">
+                <img class="modalsquare" src="../festmenyek/50 x 70 koros RGB.jpg" style="height: 39vw">
+                <p class="galleryprectangle" >P03</p>
+                <h1 class="galleryh1rectangle">Körös</h1>
+                <h3 class="galleryh3rectangle">50 x 70 cm / 19.68 x 27.55 inch <br>oil on panel 2023<br> Giclée Fine Art print available from ＄280</h3>
+            </div>
+            
+            <div class="mySlides">
+                <img src="../festmenyek/40x40 Balaton series 2 RGB.jpg" style="width:100%">
+                <p>P04</p>
+                <h1 class="galleryh1">Balaton series 2.</h1>
+                <h3 class="galleryh3">40 x 40 cm / 15.74 x 15.74 inch<br>oil on panel 2023<br> Giclée Fine Art print available from ＄210</h3>
+            </div>
+
+            <div class="mySlides">
+                <img src="../festmenyek/40x40 Autumn Trees series 2 RGB.jpg" style="width:100%">
+                <p>P05</p>
+                <h1 class="galleryh1">Autumn Trees 2.</h1>
+                <h3 class="galleryh3">40 x 40 cm / 15.74 x 15.74 inch<br>oil on panel 2023<br> Giclée Fine Art print available from ＄210</h3>
+            </div>
+
+            <div class="mySlides">
+                <img class="modalsquare" src="../festmenyek/50 x 70 Széchenyi Lánchíd 2 RGB.jpg" style="height:  39vw">
+                <p class="galleryprectangle" >P06</p>
+                <h1 class="galleryh1rectangle">Széchenyi Lánchíd and the Buda Castle 2.</h1>
+                <h3 class="galleryh3rectangle">50 x 70 cm / 19.68 x 27.55 inch <br>oil on panel 2023<br>Giclée Fine Art print available from ＄280</h3>
+            </div>
+            
+            <div class="mySlides">
+                <img class="modalsquare" src="../festmenyek/50 x 70 Sailing at the Balaton RGB.jpg" style="height:  39vw">
+                <p class="galleryprectangle">P07</p>
+                <h1 class="galleryh1rectangle">Sailing at the Balaton</h1>
+                <h3 class="galleryh3rectangle">50 x 70 cm / 19.68 x 27.55 inch<br>oil on panel 2023<br> Giclée Fine Art print available from ＄280</h3>
+            </div>
+
+            <div class="mySlides">
+                <img class="modalsquare" src="../festmenyek/50 x 70 Towards Tihany RGB.jpg" style="height:  39vw">
+                <p class="galleryprectangle">P08</p>
+                <h1 class="galleryh1rectangle">Towards Tihany</h1>
+                <h3 class="galleryh3rectangle">50 x 70 cm / 19.68 x 27.55 inch<br>oil on panel 2023<br> Giclée Fine Art print available from ＄280</h3>
+            </div>
+
+            <div class="mySlides">
+                <img src="../festmenyek/40x40 Balaton series 1 RGB.jpg" style="width:100%">
+                <p>P09</p>
+                <h1 class="galleryh1">Balaton series 1.</h1>
+                <h3 class="galleryh3">40 x 40 cm / 15.74 x 15.74 inch <br>oil on panel 2022<br> Giclée Fine Art print available from ＄210</h3>
+            </div>
+
+            <div class="mySlides">
+                <img src="../festmenyek/40x40 Balaton series 3 RGB.jpg" style="width:100%">
+                <p>P10</p>
+                <h1 class="galleryh1">Balaton series 3.</h1>
+                <h3 class="galleryh3">40 x 40 cm / 15.74 x 15.74 inch <br>oil on panel 2023<br> Giclée Fine Art print available from ＄210</h3>
+            </div>
+
+            <div class="mySlides">
+                <img src="../festmenyek/40x40 Fuji series 1 RGB.jpg" style="width:100%">
+                <p>P11</p>
+                <h1 class="galleryh1">Fuji series 1.</h1>
+                <h3 class="galleryh3">40 x 40 cm / 15.74 x 15.74 inch <br>oil on panel 2023<br> Giclée Fine Art print available from ＄210</h3>
+            </div>
+
+            <div class="mySlides">
+                <img src="../festmenyek/40x40 Fuji series 2RGB.jpg" style="width:100%">
+                <p>P12</p>
+                <h1 class="galleryh1">Fuji series 2.</h1>
+                <h3 class="galleryh3">40 x 40 cm / 15.74 x 15.74 inch <br>oil on panel 2023<br> Giclée Fine Art print available from ＄210</h3>
+            </div>
+
+            <div class="mySlides">
+                <img src="../festmenyek/40x40 Budapest skyline with the Danube RGB.jpg" style="width:100%">
+                <p>P13</p>
+                <h1 class="galleryh1">Budapest skyline with the Danube</h1>
+                <h3 class="galleryh3">40 x 40 cm / 15.74 x 15.74 inch <br>oil on panel 2023<br> Giclée Fine Art print available from ＄210</h3>
+            </div>
+
+            <div class="mySlides">
+                <img src="../festmenyek/40x40 Well crane at the Alföld RGB.jpg" style="width:100%">
+                <p>P14</p>
+                <h1 class="galleryh1">Well crane at the Alföld</h1>
+                <h3 class="galleryh3">40 x 40 cm / 15.74 x 15.74 inch <br>oil on panel 2022<br> Giclée Fine Art print available from ＄210</h3>
+            </div>
+
+            <div class="mySlides">
+                <img class="modalsquare" src="../festmenyek/50 x 70 Széchenyi Lánchíd 1 RGB.jpg" style="height:  39vw">
+                <p class="galleryprectangle">P15</p>
+                <h1 class="galleryh1rectangle">Széchenyi Lánchíd 1.</h1>
+                <h3 class="galleryh3rectangle">50 x 70 cm / 19.68 x 27.55 inch<br>oil on panel 2023<br> Giclée Fine Art print available from ＄280</h3>
+            </div>
+
+            <div class="mySlides">
+                <img src="../festmenyek/40x40 Lánchíd toward the Academy RGB.jpg" style="width:100%">
+                <p>P16</p>
+                <h1 class="galleryh1">Lánchíd toward the Academy</h1>
+                <h3 class="galleryh3">40 x 40 cm / 15.74 x 15.74 inch <br>oil on panel 2023<br> Giclée Fine Art print available from ＄210</h3>
+            </div>
+
+            <div class="mySlides">
+                <img src="../festmenyek/45x45 velence venice RGB.jpg" style="width:100%">
+                <p>P17</p>
+                <h1 class="galleryh1">Venice</h1>
+                <h3 class="galleryh3">45 x 45 cm / 17.71 x 17.71 inch <br>oil on panel 2024 <br> Giclée Fine Art print available from ＄210</h3>
+            </div>
+
+            <div class="mySlides">
+                <img src="../festmenyek/45x45 london-2023.jpg" style="width:100%">
+                <p>P18</p>
+                <h1 class="galleryh1">London</h1>
+                <h3 class="galleryh3">45 x 45 cm / 17.71 x 17.71 inch <br>oil on panel 2024 <br> Giclée Fine Art print available from ＄210</h3>
+            </div>
+
+            
+
+            <div class="caption-container">
+            <p id="caption"></p>
+            </div>
+
+        </div>
+        </div>
+
+        <script>
+        function openModal() {
+        document.getElementById("myModal").style.display = "block";
+        }
+
+        function closeModal() {
+        document.getElementById("myModal").style.display = "none";
+        }
+
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+        showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+        showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("demo");
+        var captionText = document.getElementById("caption");
+        if (n > slides.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+        captionText.innerHTML = dots[slideIndex-1].alt;
+        }
+        </script>
+
+    </body>
+</html>
